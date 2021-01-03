@@ -1,0 +1,17 @@
+.first-body{
+    height: 100vh;
+}
+
+.leftBody{
+    height: 100%;
+    background-color: #444;
+}
+.rightBody{
+    min-height: 100%;
+    background-color: #222;
+}
+@media screen and (max-width: 762px){
+    .leftBody{
+        display: none;
+    }
+}
