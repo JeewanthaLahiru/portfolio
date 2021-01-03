@@ -18,11 +18,22 @@
     overflow: hidden;
     border-radius: 50%;
     background-color: white;
+    border: 2px solid white;
 }
   
 .circular--portrait img {
-    width: 100%;
+    width: 120%;
+    margin-left: -16px;
     height: auto;
+}
+
+.first-inner-body{
+    height: 100vh;
+}
+
+.first-inner-body-left{
+    background-color: #222;
+    height: 100%;
 }
 
 @media screen and (max-width: 762px){
