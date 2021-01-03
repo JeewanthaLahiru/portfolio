@@ -35,9 +35,30 @@
     background-color: #222;
     height: 100%;
 }
+.first-inner-body-left ul{
+    list-style-type: none;
+    margin: auto;
+}
+.first-inner-body-left ul li{
+    margin-left: -2vw;
+}
+.first-inner-body-left i{
+    color: white;
+    font-size: 200%;
+    margin: auto;
+}
+.first-inner-body-left i:hover{
+    color: blue;
+}
 
 @media screen and (max-width: 762px){
     .leftBody{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .first-inner-body-left{
         display: none;
     }
 }
