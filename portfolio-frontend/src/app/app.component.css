@@ -10,6 +10,21 @@
     min-height: 100%;
     background-color: #222;
 }
+
+.circular--portrait {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: white;
+}
+  
+.circular--portrait img {
+    width: 100%;
+    height: auto;
+}
+
 @media screen and (max-width: 762px){
     .leftBody{
         display: none;
